@@ -9,6 +9,7 @@ import './HelpMenu.less';
 const DOCS_URL = 'https://spinnaker.io/docs';
 const COMMUNITY_URL = 'https://spinnaker.io/community';
 const VERSIONS_URL = 'https://www.spinnaker.io/community/releases/versions/';
+const VEGA_URL = 'https://wiki.autodesk.com/display/SPGE/SPGe+Cloud+Platform+-+Vega';
 
 const Feedback = () =>
   SETTINGS.feedback && SETTINGS.feedback.url ? (
@@ -91,6 +92,9 @@ export const HelpMenu = () => {
           </MenuItem>
           <MenuItem href={COMMUNITY_URL} target="_blank">
             Community Resources
+          </MenuItem>
+          <MenuItem href={VEGA_URL} target="_blank">
+            CPS Vega Resources
           </MenuItem>
           <Version />
           {SETTINGS.feature.pagerDuty && (
