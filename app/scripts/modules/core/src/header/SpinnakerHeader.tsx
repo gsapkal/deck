@@ -50,7 +50,7 @@ export const SpinnakerHeaderContent = () => {
           )}
         </div>
         <a className="navbar-brand flex-1" href="#">
-          SPINNAKER
+          CPS-VEGA Spinnaker
         </a>
       </div>
       {navExpanded && (
